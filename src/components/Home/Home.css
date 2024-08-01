@@ -1,0 +1,38 @@
+.home-container {
+  background-color: #0a192f;
+  color: #fff;
+  padding: 9rem 10rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content vertically */
+}
+
+.social-icons {
+  margin-top: auto; /* Move icons to the bottom */
+  text-align: center;
+}
+
+.social-icons a {
+  color: #fff;
+  transition: color 0.3s, transform 0.3s; /* Add transition for hover effect */
+}
+
+.social-icons a:hover {
+  color: #00bcd4;
+  transform: scale(1.2); 
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+p {
+  line-height: 1.6;
+}

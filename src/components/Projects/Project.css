@@ -1,0 +1,39 @@
+.card-title {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.card-text {
+  color: #343a40;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #267544;
+  border-color: #0056b3;
+}
+
+.btn-visit {
+  display: block;
+  margin: 0 auto;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,80 @@
+.skills {
+  background-color: #0a192f;
+  color: #fff;
+}
+
+.skill-card, .certificate-card {
+  background: #112240;
+  border: 1px solid #233554;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.skill-card:hover, .certificate-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(100, 255, 218, 0.1);
+  background-color: #1f2a48;
+}
+
+.skill-icon, .certificate-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skill-icon {
+  font-size: 2.5rem;
+  color: #64ffda;
+}
+
+.skill-name {
+  font-size: 1.2rem;
+  color: #ccd6f6;
+}
+
+.certificate-title {
+  font-size: 1.2rem;
+  color: #ccd6f6;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.certificate-issuer, .certificate-date {
+  color: #a8b2d1;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.certificate-detail {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #255c69;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  max-width: 90%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h2, h3 {
+  color: #64ffda;
+}
+
+.row {
+  margin: 0 -0.5rem;
+}
+
+@media (max-width: 768px) {
+  .skill-card, .certificate-card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
